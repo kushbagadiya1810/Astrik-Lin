@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+@font-face {
+    font-family: 'Mont Blanc';
+    src: url("../montblanc/MontBlanc/Commercial/TTF/MontBlancDemo-Bold.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+$regulerFont: Public Sans;
+$soraFont : Sora;
+$dmSansFont : DM Sans;
+$interFont : Inter;
+$montBlancFont : Mont Blanc;
+$spaceGrotesk : Space Grotesk ;
+
+// Colors
+$color-black: #000000;
+$color-light-black: #191919;
+$color-blue: #4582c3;
+$color-light-blue: #cdedf6;
+$color-white: #ffffff;
+$color-gray: #d4d6d8;
+$color-mediam-gray: #4a4a4a;
+$color-light-gray: #e7e9ec;
+$color-red: #d84727;
+$color-orange: #e2662c;
+$color-green: #31742D;
+$color-light-green: #45c1c3;
+$background-color: #fafafb;
+$disable-color: #999999;
+$color-purple: #4745c3;

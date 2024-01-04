@@ -1,0 +1,24 @@
+@import "../../../assets/scss/veriables.scss";
+
+.pagination-main-container {
+  display: flex;
+  justify-content: center;
+  .pagination-number {
+    .MuiPaginationItem-text {
+      font-size: 18px;
+      font-family: $regulerFont;
+      font-weight: 500;
+    }
+    .Mui-selected {
+      background-color: #c3c4ac !important;
+      color: #201d17;
+      :hover {
+        background-color: #c3c4ac !important;
+      }
+    }
+    .MuiPaginationItem-page {
+      background-color: rgba(59, 55, 46, 1);
+      border: 0.5px solid #c3c4ac;
+    }
+  }
+}

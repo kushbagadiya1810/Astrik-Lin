@@ -1,0 +1,169 @@
+@import "../../../../assets/scss/veriables.scss";
+
+.main-wrapper-about {
+  padding: 166px 156px 0px 156px;
+  // @media (max-width: 1024px) {
+  //   padding: 30px 58px 0px 58px;
+  // }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    padding: 115px 58px 0px 58px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 440px) {
+    padding: 90px 30px 0px 30px;
+  }
+  .heading-about-text {
+    font-size: 36px;
+    font-weight: 500;
+    color: #f0f0dc;
+    word-wrap: break-word;
+    font-family: $dmSansFont;
+    @media screen and (min-width: 320px) and (max-width: 440px) {
+      font-size: 24px;
+    }
+  }
+  .text-font {
+    margin: 20px 0px 100px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: $regulerFont;
+    text-align: start;
+    @media screen and (min-width: 320px) and (max-width: 425px) {
+      font-size: 15px;
+      margin: 20px 0px 50px 0px;
+    }
+  }
+  .main-who-astrik-container {
+    margin: 100px 0px 100px 0px;
+    @media screen and (min-width: 320px) and (max-width: 440px) {
+      margin: 50px 0px 100px 0px;
+    }
+    .who-astrik-container {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      @media screen and (min-width: 320px) and (max-width: 440px) {
+        height: 60px;
+      }
+      .who-astrik-title {
+        font-size: 32.4px;
+        font-weight: 400;
+        font-family: $soraFont;
+        padding-left: 18px;
+      }
+    }
+    .who-astrik-para {
+      font-size: 28px;
+      font-weight: 400;
+      font-family: $dmSansFont;
+      padding-bottom: 50px;
+      @media screen and (min-width: 320px) and (max-width: 440px) {
+        font-size: 22px;
+      }
+    }
+    .abouts-img {
+      max-width: 100%;
+      border: 1px solid #6a665e;
+      border-radius: 12px;
+      // height: 100%;
+    }
+    .ellipse-shadow-about-container {
+      position: relative;
+    }
+    .ellipse-shadow-about-container::before {
+      position: absolute;
+      content: "";
+      width: 9%;
+      height: 80%;
+      background: #cb8466;
+      box-shadow: 50px 50px 50px;
+      // border-radius: 9999px;
+      filter: blur(115px);
+      z-index: -1;
+      left: 201px;
+      @media screen and (min-width: 320px) and (max-width: 814px) {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        max-width: 80px;
+        right: 0;
+        box-shadow: 20px 20px 20px;
+      }
+    }
+    .ellipse-shadow-about-container::after {
+      position: absolute;
+      content: "";
+      width: 18%;
+      height: 44%;
+      left: 631px;
+      background: #1c3693;
+      box-shadow: 50px 50px 50px;
+      border-radius: 9px;
+      filter: blur(113px);
+      z-index: -1;
+      @media screen and (min-width: 320px) and (max-width: 814px) {
+        width: 100%;
+        height: 100%;
+        max-width: 80px;
+        left: 210px;
+        right: -822%;
+        box-shadow: 20px 20px 20px;
+      }
+    }
+  }
+  .abouts-diffrents-main-section {
+    margin: 0px 175px 77.3px 175px;
+    @media screen and (min-width: 320px) and (max-width: 425px) {
+      margin: 0px;
+    }
+    @media (max-width: 1024px) {
+      margin: 0px;
+    }
+    .abouts-diffrents-container {
+      max-width: 850px;
+      background-color: #27241e;
+      min-height: 145px;
+      border-radius: 8px;
+      padding: 26px 25px 26px 25px;
+      display: flex;
+      justify-content: space-between;
+      border: 0.5px solid #6a665e;
+      margin-bottom: 25px;
+      @media screen and (min-width: 320px) and (max-width: 425px) {
+        display: block;
+      }
+      .diffrents-imgs {
+        padding: 32.5px;
+        @media screen and (min-width: 320px) and (max-width: 425px) {
+          padding: 0px;
+        }
+      }
+      .diffrents-title {
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 500;
+        font-family: $dmSansFont;
+      }
+      .diffrents-para {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 500;
+        font-family: $regulerFont;
+        @media screen and (min-width: 320px) and (max-width: 440px) {
+          font-size: 16px;
+        }
+      }
+      .t-end {
+        text-align: end;
+        @media screen and (min-width: 320px) and (max-width: 425px) {
+          text-align: start;
+        }
+      }
+      .t-start {
+        text-align: start;
+        @media screen and (min-width: 320px) and (max-width: 425px) {
+          text-align: start;
+        }
+      }
+    }
+  }
+}
